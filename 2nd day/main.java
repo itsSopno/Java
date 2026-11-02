@@ -49,13 +49,38 @@
 //     }
 // }
 
-public class main {
-    public static void main(String[] args){
-        boolean isJiniyaCute = true;
-        if(isJiniyaCute == true){
-            System.out.println("Say yes she is cuteeeeeeee");
-        }else{
-            System.out.println("you dont know how cute she is");
-        }
-    }
-}
+// public class main {
+//     public static void main(String[] args){
+//         boolean isJiniyaCute = true;
+//         if(isJiniyaCute == true){
+//             System.out.println("Say yes she is cuteeeeeeee");
+//         }else{
+//             System.out.println("you dont know how cute she is");
+//         }
+//     }
+// }
+
+/**
+ * name : trying char varibales
+ * note : It is important that you end the statement with a semicolon ;.
+ * spnote : Char value are Unicode and they are surrounded by single quotes
+ */
+
+// public class main {
+//     public static void main(String[] args){
+//         char myFirstLetter = 'N';
+//         char mySecondLetter = 'A';
+//         char myThirdLetter = 'B';
+//         char myFourthLetter = 'I';
+//         char myFifthLetter = 'L';
+//         System.out.println(myFirstLetter + mySecondLetter + myThirdLetter + myFourthLetter + myFifthLetter);
+    
+//     }
+// }
+
+/**
+ * name : Trying float varibales
+ * note : It is important that you end the statement with a semicolon ;.
+ * spnote : Float are represented with a decimal point and they are surrounded by single quotes
+ */
+
