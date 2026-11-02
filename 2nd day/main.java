@@ -40,11 +40,22 @@
  * note : It is important that you end the statement with a semicolon ;.
  */
 
+// public class main {
+//     public static void main(String[] args){
+//         boolean isJavaFun = true;
+//         boolean isFishTasty = false;
+//         System.out.println(isJavaFun);
+//         System.out.println(isFishTasty);
+//     }
+// }
+
 public class main {
     public static void main(String[] args){
-        boolean isJavaFun = true;
-        boolean isFishTasty = false;
-        System.out.println(isJavaFun);
-        System.out.println(isFishTasty);
+        boolean isJiniyaCute = true;
+        if(isJiniyaCute == true){
+            System.out.println("Say yes she is cuteeeeeeee");
+        }else{
+            System.out.println("you dont know how cute she is");
+        }
     }
 }
