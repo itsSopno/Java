@@ -26,8 +26,11 @@
 public class main {
     public static void main(String[] args){
         String name = "Hi , my name is Nabil";
+        int myAge = 22;
+        myAge = 18;
+        String my = "I am " + myAge + " years old";
         String details = ", I am a Frontend Developer and i also have background in Computer Scinece and Technology";
-        String gaol = ", I want to become a successfull frontend developer in future";
-        System.out.println(name + details + gaol);
+        String gaol = ", I want to become a successfull frontend developer in future . ";
+        System.out.println(name + details + gaol + my);
     }
 }
