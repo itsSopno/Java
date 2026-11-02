@@ -27,15 +27,15 @@ If you forget the semicolon (;), an error will occur and the program will not ru
  * note : mathematical calculations
  */
 
-public class main {
-    public static void main(String[] args){
-        int a = 10;
-        int b = 20;
-        int sum = a + b;
-        if(sum == 30){
-System.out.println(sum + 100);
-        }else{
-            System.out.println("not possible bro");
-        }
-    }
-}
+// public class main {
+//     public static void main(String[] args){
+//         int a = 10;
+//         int b = 20;
+//         int sum = a + b;
+//         if(sum == 30){
+// System.out.println(sum + 100);
+//         }else{
+//             System.out.println("not possible bro");
+//         }
+//     }
+// }
