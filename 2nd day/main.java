@@ -84,3 +84,10 @@
  * spnote : Float are represented with a decimal point and they are surrounded by single quotes
  */
 
+public class main {
+    public static void main(String[] args){
+        float myFirstFloat = 19.99f;
+        float mySecondFloat = 20.99f;
+        System.out.println(myFirstFloat + mySecondFloat);
+        }
+}
