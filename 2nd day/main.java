@@ -84,10 +84,25 @@
  * spnote : Float are represented with a decimal point and they are surrounded by single quotes
  */
 
+// public class main {
+//     public static void main(String[] args){
+//         float myFirstFloat = 19.99f;
+//         float mySecondFloat = 20.99f;
+//         System.out.println(myFirstFloat + mySecondFloat);
+//         }
+// }
+
+
+/**
+ * name : var keyword use 
+ * note : It is important that you end the statement with a semicolon ;.
+ */
+
 public class main {
     public static void main(String[] args){
-        float myFirstFloat = 19.99f;
-        float mySecondFloat = 20.99f;
-        System.out.println(myFirstFloat + mySecondFloat);
-        }
+        var myName = "Nabil";
+        var secendName = "Hasan";
+        var thirdPart = "Alamin";
+        System.out.println(myName + secendName + thirdPart);
+    }
 }
