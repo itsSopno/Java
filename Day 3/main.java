@@ -71,3 +71,88 @@ class main4{
     System.out.println(w);
     }
 }
+
+/**
+ * name : Real life example of counting people in a room;
+ * note : implicit typecasting;
+ * 
+ */
+ class main5{
+    public static void main(String[] args){
+        int peopleInRoom = 0;
+        peopleInRoom++;
+        System.out.println(peopleInRoom);
+        peopleInRoom++;
+        System.out.println(peopleInRoom);
+        peopleInRoom --;
+        System.out.println(peopleInRoom);
+    }
+ }
+
+ /**
+  * name : Assignment Operators
+  * topic : Assignment Operators are used to assign values to variables.
+  * details : Assignment operators are used to assign values to variables.
+
+In the example below, we use the assignment operator (=) to assign the value 10 to a variable called x:
+  */
+
+ class main6{
+public static void main(String[] args){
+    int x = 30;
+    int y = 20;
+    x += 10;
+    x |=10;
+    x ^= 10;
+    x &=10;
+    y >>=10;
+    x <<=10;
+    System.out.println(x);
+    System.out.println(y);
+}
+ }
+
+//  real life exanmple
+
+class main7{
+    public static void main(String[] args){
+        int savings = 1000;
+        savings += 500;
+        System.out.println("Now saving is :" + savings);
+    }
+}
+
+
+/**
+ * topic name : Comparison Operators
+ * note : Comparison operators are used to compare two values.
+ */
+
+class main8{
+    public static void main(String[] args){
+int x = 10;
+int y = 20;
+System.out.println(x < y);
+System.out.println(x > y);
+System.out.println(x == y );
+System.out.println(x != y);
+System.out.println(x<=y);
+System.out.println(x >=y);
+    }
+}
+
+/**
+ * topic name : Logical Operators
+ * note : Logical operators are used to combine conditional statements.
+ */
+
+class main9{
+    public static void main(String[] args){
+        int x = 10;
+        int y = 20;
+        System.out.println(x < 15 && y > 15);
+        System.out.println(x<29 || y > 15);
+        
+    }
+}
+
