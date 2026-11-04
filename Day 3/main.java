@@ -152,7 +152,23 @@ class main9{
         int y = 20;
         System.out.println(x < 15 && y > 15);
         System.out.println(x<29 || y > 15);
-        
+
     }
 }
 
+/**
+ * name : real life example of logical operator;
+ * topic : login check;
+ * 
+ */
+
+class main10{
+    public static void main(String[] args){
+        boolean isAdmin = true;
+        boolean isLoggedIn = false;
+
+        System.out.println("Is Regular User && isLoggedIn: " + (isAdmin && isLoggedIn));
+    System.out.println("Is Admin || isLoggedIn : " + (isAdmin || isLoggedIn));
+    System.out.println("not logged in :" + !isLoggedIn);
+    }
+}
