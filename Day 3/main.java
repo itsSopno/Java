@@ -172,3 +172,40 @@ class main10{
     System.out.println("not logged in :" + !isLoggedIn);
     }
 }
+
+/**
+ * topic name : Java Operator Precedence
+ * note : Order of Operations
+
+Here are some common operators, from highest to lowest priority:
+
+    () - Parentheses
+    *, /, % - Multiplication, Division, Modulus
+    +, - - Addition, Subtraction
+    >, <, >=, <= - Comparison
+    ==, != - Equality
+    && - Logical AND
+    || - Logical OR
+    = - Assignment
+
+
+ */
+
+class main11{
+    public static void main(String[] args){
+        int result1 = 2 + 5 * 4;
+        int result2 = (2+5)*4;
+        System.out.println(result1);
+        System.out.println(result2);
+
+    }
+}
+
+class main12{
+    public static void main(String[] args){
+        int result3 = 5 - 6 + 5;
+        int result4 = 5 - (6+5);
+    System.out.println(result3);
+    System.out.println(result4);
+    }
+}
