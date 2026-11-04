@@ -113,15 +113,15 @@
  * 
  */
 
-public class main{
-    public static void main(String[] args){
-        int studentId = 22;
-        float studentGpa = 3.52f;
-        String studentName = "Nabil Hasan Alamin";
-        char studentGrade = 'A';
-        int studentRoll = 232895;
-        if(studentName == "Nabil Hasan Alamin" && studentRoll == 232895){
-            System.out.println(studentName + " is a student of CSE department and his roll is " + studentRoll + " and his id is " + studentId + " and his gpa is " + studentGpa + " and his grade is " + studentGrade);
-        }
-    }
-}
+// public class main{
+//     public static void main(String[] args){
+//         int studentId = 22;
+//         float studentGpa = 3.52f;
+//         String studentName = "Nabil Hasan Alamin";
+//         char studentGrade = 'A';
+//         int studentRoll = 232895;
+//         if(studentName == "Nabil Hasan Alamin" && studentRoll == 232895){
+//             System.out.println(studentName + " is a student of CSE department and his roll is " + studentRoll + " and his id is " + studentId + " and his gpa is " + studentGpa + " and his grade is " + studentGrade);
+//         }
+//     }
+// }
