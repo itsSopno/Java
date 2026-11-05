@@ -209,3 +209,16 @@ class main12{
     System.out.println(result4);
     }
 }
+
+/**
+ * name : code chellange
+ * 
+ */
+class main13{
+    public static void main(String[] args){
+        int itemPrice = 200;
+        int shippingCost = 250;
+        shippingCost += itemPrice;
+        System.out.println(shippingCost);
+    }
+}
