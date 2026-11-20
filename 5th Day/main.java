@@ -6,7 +6,7 @@ System.out.println("Hello world");
 
 /**
  * topic : Contact method
- * main2
+ * main2git 
  */
 class main2{
     public static void main(String[] args){
