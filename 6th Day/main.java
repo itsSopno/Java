@@ -49,7 +49,13 @@ class main4{
  }
  
  class main7{
+    /**
+     * note : 
+     * @param args
+    */
     public static void main(String[] args){
-        int onko = Math.pow(10 , 5);
+        double onko = Math.pow(10 , 5);
+
+        System.out.println(onko);
     }
  }
