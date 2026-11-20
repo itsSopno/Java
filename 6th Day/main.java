@@ -59,3 +59,28 @@ class main4{
         System.out.println(onko);
     }
  }
+
+ /**
+  * note : Rounding Methods
+
+Java has several methods for rounding numbers:
+
+    Math.round(x) - rounds to the nearest integer
+    Math.ceil(x) - rounds up (returns the smallest integer greater than or equal to x)
+    Math.floor(x) - rounds down (returns the largest integer less than or equal to x)
+
+  */
+
+    class main8{
+        public static void main(String[] args){
+            double siuu = Math.round(4.6);
+            System.out.println(siuu);
+
+            double rona = Math.ceil(4.1);
+            System.out.println(rona);
+              double kona = Math.floor(4.9);
+        System.out.println(kona);
+        }
+
+       
+    }
